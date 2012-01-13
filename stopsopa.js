@@ -4,9 +4,9 @@ var stopsopa = {
 	date : new Date(),
 	blackout : function(){
 		stopsopa.pagebody.style.position = "absolute";
-		stopsopa.pagebody.style.left = "-2000px";
+		stopsopa.pagebody.style.left = "-4000px";
 		var div = document.createElement('div');
-		div.setAttribute('style', 'position:absolute; left: 2000px; top: 0; font-size: 100px; color: red; white-space: nowrap; font-family: arial, san-serif; font-weight: bold;');
+		div.setAttribute('style', 'position:absolute; left: 4200px; top: 50px; font-size: 100px; color: red; white-space: nowrap; font-family: arial, san-serif; font-weight: bold;');
 		var text = document.createTextNode(stopsopa.sopaText);
 		div.appendChild(text)
 		stopsopa.pagebody.appendChild(div);	
