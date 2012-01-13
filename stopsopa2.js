@@ -17,7 +17,7 @@ var stopsopa = {
         div.setAttribute("style", "width:100%;text-align:center;font-size:130px;color:red;text-transform:uppercase;white-space:nowrap;font-family:arial, san-serif;font-weight:bold;background:black;padding:50px 20px;line-height:1.2em;position:absolute;top:50%;margin-top:-100px;");
         stopsopa.pagebody.innerHTML = "";
         footer.setAttribute("style", "background:black;color:yellow;font-size:15px;position:absolute;bottom:0;width:100%;text-align:center;display:block;padding:10px;");
-        footer.setAttribute("href", "http://techland.time.com/2012/01/12/sopa-reddit-confirms-january-18-blackout-wikipedia-and-others-may-follow/?iid=tl-main-mostpop1");
+        footer.setAttribute("href", "http://www.mozilla.org/sopa/");
         footer.setAttribute("target", "_blank");
         footer.appendChild(footerText);
         stopsopa.pagebody.appendChild(footer);
