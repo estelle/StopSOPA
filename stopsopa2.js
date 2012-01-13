@@ -25,7 +25,7 @@ var stopsopa = {
         stopsopa.pagebody.appendChild(div);
     },
     actionDate: function () {
-        if (stopsopa.date.getMonth() === 0 && stopsopa.date.getDate() === 12 && stopsopa.date.getYear() === 112) {
+        if (stopsopa.date.getMonth() === 0 && stopsopa.date.getDate() === 18 && stopsopa.date.getYear() === 112) {
             stopsopa.blackout();
         }
     }
