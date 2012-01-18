@@ -13,8 +13,8 @@ var stopsopa = {
         for (var i in pageAry) {
             pageAry[i].setAttribute("style", "background:white;height:100%;font-family:Arial, sans-serif;");
         }
-        //stopsopa.pagebody.setAttribute("style", "background:white;height:100%;");
-        div.setAttribute("style", "width:100%;text-align:center;font-size:130px;color:red;text-transform:uppercase;white-space:nowrap;font-family:arial, san-serif;font-weight:bold;background:black;padding:50px 20px;line-height:1.2em;position:absolute;top:50%;margin-top:-100px;");
+        stopsopa.pagebody.setAttribute("style", "background:white;height:100%;");
+        div.setAttribute("style", "width:130%;text-align:center;font-size:130px;color:red;text-transform:uppercase;white-space:nowrap;font-family:arial, san-serif;font-weight:bold;background:black;padding:50px 20px;line-height:1.2em;position:absolute;top:30%;left:-15%;margin-top:-100px;-webkit-transform: rotate(-10deg);-moz-transform: rotate(-10deg);");
         stopsopa.pagebody.innerHTML = "";
         footer.setAttribute("style", "background:black;color:yellow;font-size:15px;position:absolute;bottom:0;width:100%;text-align:center;display:block;padding:10px;");
         footer.setAttribute("href", "http://www.mozilla.org/sopa/");
